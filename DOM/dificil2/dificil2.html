@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrossel de Imagens</title>
+    <style>
+        #carrossel {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        img {
+            max-width: 300px;
+            height: auto;
+        }
+        button {
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="carrossel">
+        <img id="imagem" src="imagem1.jpg" alt="Imagem do carrossel">
+        <div>
+            <button id="anterior">Anterior</button>
+            <button id="proximo">Próximo</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
